@@ -10,6 +10,12 @@ How to run
 
 A log of non extractable nouns is stored in data/articles.log
 
+Useful commands
+---------------
+
+* Find all words that do not contain "der", "die" or "das": `cat articles.csv | grep -v ",das" |  grep -v ",die" |  grep -v ",der"`
+
+
 Todo
 ----
 
